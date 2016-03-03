@@ -1,12 +1,5 @@
 #include "std_headers.h"
 
-struct TreeNode {
-    int val;
-    struct TreeNode *left;
-    struct TreeNode *right;
-};
-
-
 class Solution {
 public:
 	void process(TreeNode* node) {
